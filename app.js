@@ -43,28 +43,3 @@ function openNav() {
 function closeNav() {
     document.getElementById("sidebar").style.width = "0"; // Sidebar collapses back to 0
 }
-
-const hoverWord = document.querySelector(".hover-word");
-    const imageContainer = document.getElementById("image-container");
-    const hoverImage = document.getElementById("hover-image");
-
-    hoverWord.addEventListener("mouseenter", function(event) {
-        // Get the image path from the data-img attribute
-        const imgPath = hoverWord.getAttribute("data-img");
-
-        // Set the image source
-        hoverImage.src = imgPath;
-
-        // Position the image container
-        const rect = hoverWord.getBoundingClientRect();
-        imageContainer.style.top = rect.bottom + window.scrollY + "px";
-        imageContainer.style.left = rect.left + window.scrollX + "px";
-
-        // Show the image container
-        imageContainer.style.display = "block";
-    });
-
-    hoverWord.addEventListener("mouseleave", function() {
-        // Hide the image container when the mouse leaves
-        imageContainer.style.display = "none";
-    });
