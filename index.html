@@ -2,178 +2,118 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBlogSite</title> 
+    <title>DNA</title> 
 </head>
 <body>
+    <span class="openbtn" onclick="openNav()">&#9776;</span>
+
+    <!-- Sidebar -->
+     <aside>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+    </aside>
     <header id="main-header">
         <!-- the content of the header goes here -->
-         <h1 id="logo">BrightBlog</h1>
-         <nav>
+         <h1 id="logo">Biominded</h1>
+         <nav id="navbar">
             <ul id="nav-ul">
-                <li><a href="" class="navbutton">Home</a></li>
+                <li>
+                    <a href=""class="navbutton">Home</a></li>
                     <li><a href="" class="navbutton">About us</a></li>
-                    <li><a href="" class="navbutton">Contact us</a></li>
+                    <li><a href="" class="navbutton">Contact us</a>
+                </li>
             </ul>
          </nav>
     </header>
     <main>
+        <h4 id="main-subheading">All About DNA!</h4>
         <div id="main-content">
-            <aside>
-                <section>
-                    <h4>Filter by month</h4>
-                    <nav>
-                        <ul>
-                            <li><a href=""></a>Filter for January</li>
-                            <li><a href=""></a>Filter for February</li>
-                            <li><a href=""></a>Filter for March</li>
-                        </ul>
-                    </nav>
-                </section>
-                <section>  
-                    <h4>Filter by Category</h4>
-                    <nav>
-                        <ul>
-                            <li><a href="">Puppies</a></li>
-                            <li><a href="">Dogs</a></li>
-                            <li><a href="">Cats</a></li>
-                            <li><a href="">Hedgehogs</a></li>
-                        </ul>
-                    </nav>
-                </section>
-            </aside>
-            <div>
-                <article>
-                    <header>
-                        <!-- Article's header goes here -->
-                         <h2>Ten Amusing Facts about Dogs!</h2>
-                         <h3>Read time: 5 minutes</h3>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, natus quo illo mollitia culpa consequatur molestiae repellat debitis expedita voluptatem atque excepturi ipsum cupiditate sunt, ex dicta veritatis pariatur blanditiis! Reiciendis asperiores voluptates recusandae! Commodi eaque similique voluptatibus odio! Illum, nostrum. Consequuntur corrupti illum natus quia rem aspernatur dolorem architecto rerum minus accusamus doloremque eum aut ipsa magni maiores at ex voluptatum, dolorum ullam dicta reiciendis esse itaque maxime. Sunt, nemo earum. Eos molestias nostrum dolorem incidunt consequatur id cum sit autem, aperiam repudiandae quidem pariatur doloremque perspiciatis. Autem beatae rem ad consectetur doloribus voluptatem accusamus provident eos reprehenderit asperiores.
-                        </p>
-                        <blockquote>
-                            <cite>"I love ducks!" - Lisa, 2024</cite>
-                        </blockquote>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste laborum excepturi officiis quos deserunt doloribus id quibusdam in veniam consectetur dignissimos modi sint ipsa eveniet ducimus magni quis, suscipit adipisci recusandae ipsam. Quae cum veniam molestiae assumenda mollitia est voluptatibus explicabo eaque, nemo nesciunt, odit magni eius quaerat praesentium maxime sed modi consequatur suscipit! Velit dolorem unde quasi consequuntur, est sit reprehenderit voluptas perferendis quam numquam, libero deleniti enim vel dicta. Inventore, magni! Soluta ullam consequuntur libero at, asperiores odio?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat quo et ipsa omnis, accusantium ut voluptas eaque consequuntur ipsam beatae, saepe id facilis neque, illum sint? Animi, veniam facere, voluptatum explicabo ex laboriosam consequatur natus repudiandae maiores asperiores voluptate optio laborum esse non! Debitis natus, ullam dicta nisi unde ex atque laboriosam omnis sint veritatis odio velit dolor iusto nesciunt corrupti minima magnam enim perspiciatis ducimus quisquam dolorem aspernatur totam exercitationem! Accusantium natus excepturi voluptates praesentium et quas nisi dignissimos unde laboriosam, tenetur vel quasi laudantium amet atque. Esse ad cumque veritatis, aspernatur tempore officiis. Facilis similique obcaecati eaque maxime sit optio iste praesentium animi doloremque temporibus! Iusto nisi dolor impedit molestias iste assumenda? Hic ex magni officia labore. Ipsum veniam voluptas nemo maiores cupiditate? Adipisci maiores nulla esse voluptatum labore iste animi odit doloribus alias quisquam voluptate dolorem repellat eaque quas hic, iure in ratione quo doloremque nobis!
-                        </p>
-                    </main>
-                    <footer>
-                        <h2>Author: Lisa Tran</h2>
-                        <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
-                        <h3>Last posted: 28-08-2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/" target="_blank">Author's profile</a>
-                    </footer>
-                </article>
-                <article>
-                    <header>
-                        <!-- Article's header goes here -->
-                         <h2>Ten Awesome Facts about Ducks!</h2>
-                         <h3>Read time: 5 minutes</h3>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, natus quo illo mollitia culpa consequatur molestiae repellat debitis expedita voluptatem atque excepturi ipsum cupiditate sunt, ex dicta veritatis pariatur blanditiis! Reiciendis asperiores voluptates recusandae! Commodi eaque similique voluptatibus odio! Illum, nostrum. Consequuntur corrupti illum natus quia rem aspernatur dolorem architecto rerum minus accusamus doloremque eum aut ipsa magni maiores at ex voluptatum, dolorum ullam dicta reiciendis esse itaque maxime. Sunt, nemo earum. Eos molestias nostrum dolorem incidunt consequatur id cum sit autem, aperiam repudiandae quidem pariatur doloremque perspiciatis. Autem beatae rem ad consectetur doloribus voluptatem accusamus provident eos reprehenderit asperiores.
-                        </p>
-                        <blockquote>
-                            <cite>"I love ducks!" - Lisa, 2024</cite>
-                        </blockquote>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste laborum excepturi officiis quos deserunt doloribus id quibusdam in veniam consectetur dignissimos modi sint ipsa eveniet ducimus magni quis, suscipit adipisci recusandae ipsam. Quae cum veniam molestiae assumenda mollitia est voluptatibus explicabo eaque, nemo nesciunt, odit magni eius quaerat praesentium maxime sed modi consequatur suscipit! Velit dolorem unde quasi consequuntur, est sit reprehenderit voluptas perferendis quam numquam, libero deleniti enim vel dicta. Inventore, magni! Soluta ullam consequuntur libero at, asperiores odio?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat quo et ipsa omnis, accusantium ut voluptas eaque consequuntur ipsam beatae, saepe id facilis neque, illum sint? Animi, veniam facere, voluptatum explicabo ex laboriosam consequatur natus repudiandae maiores asperiores voluptate optio laborum esse non! Debitis natus, ullam dicta nisi unde ex atque laboriosam omnis sint veritatis odio velit dolor iusto nesciunt corrupti minima magnam enim perspiciatis ducimus quisquam dolorem aspernatur totam exercitationem! Accusantium natus excepturi voluptates praesentium et quas nisi dignissimos unde laboriosam, tenetur vel quasi laudantium amet atque. Esse ad cumque veritatis, aspernatur tempore officiis. Facilis similique obcaecati eaque maxime sit optio iste praesentium animi doloremque temporibus! Iusto nisi dolor impedit molestias iste assumenda? Hic ex magni officia labore. Ipsum veniam voluptas nemo maiores cupiditate? Adipisci maiores nulla esse voluptatum labore iste animi odit doloribus alias quisquam voluptate dolorem repellat eaque quas hic, iure in ratione quo doloremque nobis!
-                        </p>
-                    </main>
-                    <footer>
-                        <h2>Author: Lisa Tran</h2>
-                        <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
-                        <h3>Last posted: 28-08-2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/" target="_blank">Author's profile</a>
-                    </footer>
-                </article>
-                <article>
-                    <header>
-                        <!-- Article's header goes here -->
-                         <h2>Ten Awesome Facts about Ducks!</h2>
-                         <h3>Read time: 5 minutes</h3>
-                    </header>
-                    <main>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, natus quo illo mollitia culpa consequatur molestiae repellat debitis expedita voluptatem atque excepturi ipsum cupiditate sunt, ex dicta veritatis pariatur blanditiis! Reiciendis asperiores voluptates recusandae! Commodi eaque similique voluptatibus odio! Illum, nostrum. Consequuntur corrupti illum natus quia rem aspernatur dolorem architecto rerum minus accusamus doloremque eum aut ipsa magni maiores at ex voluptatum, dolorum ullam dicta reiciendis esse itaque maxime. Sunt, nemo earum. Eos molestias nostrum dolorem incidunt consequatur id cum sit autem, aperiam repudiandae quidem pariatur doloremque perspiciatis. Autem beatae rem ad consectetur doloribus voluptatem accusamus provident eos reprehenderit asperiores.
-                        </p>
-                        <blockquote>
-                            <cite>"I love ducks!" - Lisa, 2024</cite>
-                        </blockquote>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste laborum excepturi officiis quos deserunt doloribus id quibusdam in veniam consectetur dignissimos modi sint ipsa eveniet ducimus magni quis, suscipit adipisci recusandae ipsam. Quae cum veniam molestiae assumenda mollitia est voluptatibus explicabo eaque, nemo nesciunt, odit magni eius quaerat praesentium maxime sed modi consequatur suscipit! Velit dolorem unde quasi consequuntur, est sit reprehenderit voluptas perferendis quam numquam, libero deleniti enim vel dicta. Inventore, magni! Soluta ullam consequuntur libero at, asperiores odio?</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium repellat quo et ipsa omnis, accusantium ut voluptas eaque consequuntur ipsam beatae, saepe id facilis neque, illum sint? Animi, veniam facere, voluptatum explicabo ex laboriosam consequatur natus repudiandae maiores asperiores voluptate optio laborum esse non! Debitis natus, ullam dicta nisi unde ex atque laboriosam omnis sint veritatis odio velit dolor iusto nesciunt corrupti minima magnam enim perspiciatis ducimus quisquam dolorem aspernatur totam exercitationem! Accusantium natus excepturi voluptates praesentium et quas nisi dignissimos unde laboriosam, tenetur vel quasi laudantium amet atque. Esse ad cumque veritatis, aspernatur tempore officiis. Facilis similique obcaecati eaque maxime sit optio iste praesentium animi doloremque temporibus! Iusto nisi dolor impedit molestias iste assumenda? Hic ex magni officia labore. Ipsum veniam voluptas nemo maiores cupiditate? Adipisci maiores nulla esse voluptatum labore iste animi odit doloribus alias quisquam voluptate dolorem repellat eaque quas hic, iure in ratione quo doloremque nobis!
-                        </p>
-                    </main>
-                    <footer>
-                        <h2>Author: Lisa Tran</h2>
-                        <img src="https://placebear.com/100/100" alt="A profile pic of a bear">
-                        <h3>Last posted: 28-08-2024</h3>
-                        <a href="https://www.brightnetwork.co.uk/" target="_blank">Author's profile</a>
-                    </footer>
-                </article>
+            <section id="background">
+            <h3>What is DNA?</h3>
+                <p>Deoxyribonucleic Acid <span class="hover-word" data-img="dna.png">(DNA)</span> is a molecule that carries all of our genetic information. Think of it as the coding responsible for the genetic makeup that gives a person a specific characteristic. It contains all the information needed for a living organism to grow and function. DNA is hereditary, meaning it passes from each parent to child. Despite this, every person's DNA is unique!
+                <p><i>Fun Fact: Only the DNA of identical twins are not unique! This is because they come from a single fertilised egg that splits into two 
+                </i></p>
+                <div id="image-container">
+                    <img id="hover-image" src="dna" alt="dna.png" />
+                    </div>
+                </p>
+            </section>
+            <section id="structure">
+                <h3>The Structure of DNA</h3>
+                <p>DNA consists of a double helix structure, often described as two long strands arranged in a spiral. These two strands consist of nucleotides that run in opposite directions. Each nucleotide is comprised of a phosphate group, a sugar molecule, and a nitrogenous base. There are four types of nitrogenous bases in DNA: Adenine (A), Thymine (T), Cytosine (C), and Guanine (G). These bases always pair up in a specific way: Adenine pairs with Thymine (A-T), and Guanine pairs with Cytosine (G-C). This complimentary base pairing is held together by hydrogen bonds. 
+                <p><i>Fun Fact: There are over 3 billion different base pairs in each person!</i>
+                </p>  
+            
+                
+                </p>
+            </section>
+            <section id="organisation">
+                <h3>Organisation of DNA</h3>
+                <p>DNA is organised differently in different types of organisms. This can be divided into two main groups, eukaryotes and prokaryotes. Animals and plants are eukaryotes. In eukaryotes, DNA can be found within the chromosomes inside a nucleus, a membrane-bound compartment within a cell. The DNA in the nucleus is tightly coiled and packaged with proteins. Bacteria is an example of a prokaryote. Unlike eukaryotes, these organisms do not have a nucleus within their cells which means their DNA is free in the cytoplasm. Prokaryotic DNA is found in circular chromosomes but can also be found in smaller loops called plasmids. 
+                </p>
+            </section>
             </div>
 
         </div>
-        
-        <!-- the main content of the website can go here  -->
     
         <hr>
-        <h2>Sign up for our newsletter!</h2>
-        <form action="" method="">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name" name="first_name" required>
-            <br>
-
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name" name="last_name" required>
-            <br>
-
-            <label for="email">Email:</label>
-            <input type="email" name="email" id="email">
-            <br>
-
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password">
-            <br>
-
-            <label for="favourite_animal">Favourite Animal:</label>
-            <input type="radio" name="favourite_animal" id="dog" value="dog">
-            <label for="dog">Dog</label>
-            <input type="radio" name="favourite_animal" id="cat" value="cat">
-            <label for="cat">Cat</label>
-            <input type="radio" name="favourite_animal" id="hedgehog" value="hedgehog">
-            <label for="hedgehog">Hedgehog</label>
-            <br>
-
-            <label for="country">Country:</label>
-            <select name="country" id="country">
-                <option value="england">England</option>
-                <option value="scotland">Scotland</option>
-                <option value="wales">Wales</option>
-                <option value="northern_ireland">Northern Ireland</option>
-            </select>
-            <br>
-            
-            <label for="bio">Biography:</label>
-            <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
-            <br>
-
-            <input type="checkbox" id="suscribe" name="subscribe">
-            <label for="subscribe">Subscribe to our newsletter!</label>
-            <br>
-
-            <input type="submit" value="Send!">
-
-        </form>
-        <hr>
+        <h4 id="quiz-heading">Test your knowledge!</h4>
+        <div class="quiz-container">
+            <h1>DNA Quiz</h1>
+            <form id="quiz-form">
+                <div class="question">
+                    <h3>1. What is the full form of DNA?</h3>
+                    <label><input type="radio" name="q1" value="A"> Deoxyribonucleic Acid</label><br>
+                    <label><input type="radio" name="q1" value="B"> Dinucleotide Acetic Acid</label><br>
+                    <label><input type="radio" name="q1" value="C"> Deoxyribogenetic Acid</label><br>
+                </div>
     
+                <div class="question">
+                    <h3>2. Which of the following bases pairs with Adenine in DNA?</h3>
+                    <label><input type="radio" name="q2" value="A"> Guanine</label><br>
+                    <label><input type="radio" name="q2" value="B"> Cytosine</label><br>
+                    <label><input type="radio" name="q2" value="C"> Thymine</label><br>
+                </div>
+    
+                <div class="question">
+                    <h3>3. DNA is  located in which part of a eukaryotic cell?</h3>
+                    <label><input type="radio" name="q3" value="A"> Mitochondria</label><br>
+                    <label><input type="radio" name="q3" value="B"> Nucleus</label><br>
+                    <label><input type="radio" name="q3" value="C"> Cytoplasm</label><br>
+                </div>
+    
+                <div class="question">
+                    <h3>4. What is the shape of the DNA molecule?</h3>
+                    <label><input type="radio" name="q4" value="A"> Double helix</label><br>
+                    <label><input type="radio" name="q4" value="B"> Single-stranded</label><br>
+                    <label><input type="radio" name="q4" value="C"> Circular</label><br>
+                </div>
+    
+                <div class="question">
+                    <h3>5. How many base pairs are in a single human genome?</h3>
+                    <label><input type="radio" name="q5" value="A"> 3 billion</label><br>
+                    <label><input type="radio" name="q5" value="B"> 30 million</label><br>
+                    <label><input type="radio" name="q5" value="C"> 300,000</label><br>
+                </div>
+    
+                <button type="button" id="submit">Submit</button>
+            </form>
+            <div id="results"></div>
+        </div>
+    
+        <script src="app.js"></script>
+
     </main>
     <footer>
-        <h2>BrightBlogSite</h2>
+        <h2>Biominded</h2>
         <section>
             <nav>
                 <ul id="footer-ul">
@@ -181,7 +121,6 @@
                         <li><a href="">Home</a></li>
                         <li><a href="">About us</a></li>
                         <li><a href="">Contact</a></li>
-                        <li><a href="">Careers</a></li>
                     </div>
                     <div>
                         <li><a href="">Privacy Policy</a></li>
